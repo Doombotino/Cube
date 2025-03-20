@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuBiC Game</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: #000;
+        }
+        #info {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            font-family: monospace;
+            font-size: 14px;
+            pointer-events: none;
+            user-select: none;
+            background: rgba(0,0,0,0.7);
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="info">
+        Controls:<br>
+        - Click and drag to rotate<br>
+        - Scroll wheel to zoom<br>
+        - Click cube to select<br>
+        - Double-click for first-person view
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html> 
